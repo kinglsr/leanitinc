@@ -21,19 +21,19 @@ Route::get('/devops', function () {
     return view('devops');
 });
 
-Route::get('/web_dev', function () {
-    return view('web_dev');
+Route::get('/bsa', function () {
+    return view('bsa');
 });
-Route::get('/network', function () {
-    return view('network');
+Route::get('/aws', function () {
+    return view('aws');
 });
 Route::get('/careers', function () {
     return view('careers');
 });
-Route::get('/mulsoft', function () {
-    return view('mulsoft');
+Route::get('/sql', function () {
+    return view('sql');
 });
-Route::get('/crypto', function () {
-    return view('crypto');
+Route::get('/qa', function () {
+    return view('qa');
 });
 Route::post('/newRegistration','UserController@newRegistration');

@@ -75,6 +75,24 @@
                 </p>
                 </div>
                 <div >
+                <div class="p-3 mb-2 bg-danger text-white">
+                <p>
+                <br> <br> <br>
+                Our consultants live and work in Greater Richmond!
+                Outsourcing your projects to Lean IT Inc never means sending your work off-shore. We employ consultants who live, work, and shop in the Greater Richmond area.  
+
+                Lean IT Inc has consultants who specialize in the most in-demand tools and technologies, including:
+                 Our consultants have both classroom training and real-world experience to get your business projects from design to successful implementation quickly and cost-effectively. We also offer training at our facility or at your site to help develop your in-house staff to meet your changing needs.
+                <br> <br> <br>
+                </p>
+            </div>
+            <div>
+              <div class="p-3 mb-2 bg-secondary text-white">
+                <p>
+                <br> <br> <br>
+                More COntaint
+                <br> <br> <br>
+                </p>
             </div>
         </div>
         <div class="row">
@@ -104,7 +122,7 @@
                         <i class="icon-basket font-purple-wisteria theme-font"></i>
                     </div>
                     <div class="card-title">
-                        <h2> Join For Free </h2>
+                        <h2> Badges </h2>
                     </div>
                 </div>
             </div>
