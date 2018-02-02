@@ -127,11 +127,10 @@
     </div>
     </div> 
   </div>
+
+  <hr class="featurette-divider">
     <div class="training-section section-div" id="training-section">
         <h1 class="section-title wow fadeInUp">Classes and Training</h1>
-
-        <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Lean IT Inc</span></h2>
