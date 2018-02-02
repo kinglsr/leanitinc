@@ -46,6 +46,7 @@
 </div>
 <div class="container marketing">
 <hr class="featurette-divider">
+<div class="about-section section-div" id="about-section">
 <h1 class="section-title wow fadeInUp"><span>About US</span></h1>
         <div class="row">
             <div class="col-md-12 col-sm-12" >
@@ -58,39 +59,6 @@
                 <br>
                 </p>
                 </div>
-            </div>
-        </div>
-      
-      <hr class="featurette-divider">
-      <div class="staff-section section-div" id="staff-section">
-        <h1 class="section-title wow fadeInUp"><span>Staff Augmentation</span></h1>
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="p-3 mb-2 bg-warning text-white">
-                <p>
-                <br> <br> <br>
-                Lean IT consultants are available to supplement your in-house staff for long-term or short-term projects. Whether you need a junior developer to assist your team in a special project or a senior business analyst to get the work off on the right track, Our consultants are a flexible and cost-effective alternative to hiring additional permanent staff. Consultants are available for Business Process Analysis, Software Engineering and Project Management Consulting engagements on a fixed price or hourly basis and can work at on-site or off-site locations
-                <br> <br> <br>
-                </p>
-                </div>
-                <div >
-                <div class="p-3 mb-2 bg-danger text-white">
-                <p>
-                <br> <br> <br>
-                Our consultants live and work in Greater Richmond!
-                Outsourcing your projects to Lean IT Inc never means sending your work off-shore. We employ consultants who live, work, and shop in the Greater Richmond area.  
-
-                Lean IT Inc has consultants who specialize in the most in-demand tools and technologies, including:
-                 Our consultants have both classroom training and real-world experience to get your business projects from design to successful implementation quickly and cost-effectively. We also offer training at our facility or at your site to help develop your in-house staff to meet your changing needs.
-                <br> <br> <br>
-                </p>
-            </div>
-            <div>
-              <div class="p-3 mb-2 bg-secondary text-white">
-                <p>
-                <br> <br>
-                <br> <br> <br>
-                </p>
             </div>
         </div>
         <div class="row">
@@ -123,10 +91,42 @@
                 </div>
             </div>
         </div>
+      <hr class="featurette-divider">
+      <div class="staff-section section-div" id="staff-section">
+        <h1 class="section-title wow fadeInUp"><span>Staff Augmentation</span></h1>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="p-3 mb-2 bg-warning text-white">
+                <p>
+                <br> <br> <br>
+                Lean IT consultants are available to supplement your in-house staff for long-term or short-term projects. Whether you need a junior developer to assist your team in a special project or a senior business analyst to get the work off on the right track, Our consultants are a flexible and cost-effective alternative to hiring additional permanent staff. Consultants are available for Business Process Analysis, Software Engineering and Project Management Consulting engagements on a fixed price or hourly basis and can work at on-site or off-site locations
+                <br> <br> <br>
+                </p>
+                </div>
+                <div >
+                <div class="p-3 mb-2 bg-danger text-white">
+                <p>
+                <br> <br> <br>
+                Our consultants live and work in Greater Richmond!
+                Outsourcing your projects to Lean IT Inc never means sending your work off-shore. We employ consultants who live, work, and shop in the Greater Richmond area.  
+
+                Lean IT Inc has consultants who specialize in the most in-demand tools and technologies, including:
+                 Our consultants have both classroom training and real-world experience to get your business projects from design to successful implementation quickly and cost-effectively. We also offer training at our facility or at your site to help develop your in-house staff to meet your changing needs.
+                <br> <br> <br>
+                </p>
+            </div>
+            <div>
+              <div class="p-3 mb-2 bg-secondary text-white">
+                <p>
+                <br> <br>
+                <br> <br> <br>
+                </p>
+            </div>
+        </div>
       </div>
     </div>
+    </div> 
   </div>
-
     <div class="training-section section-div" id="training-section">
         <h1 class="section-title wow fadeInUp">Classes and Training</h1>
 
@@ -162,8 +162,8 @@
             <p>Get the latest training </p>
             <p><a class="btn red-mint btn-outline sbold uppercase btn-sm" target="_blank" href="<?= url('aws') ?>" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
-          </div>      
-
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-4">
             <img class="img-circle" src="{{ asset('img/devops.jpg') }}" alt="Generic placeholder image" width="140" height="140">

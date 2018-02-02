@@ -31,6 +31,7 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="<?= url('') ?>" id="home">Home</a></li>
+        <li><a href="#about" id="about">About Us</a></li>
         <li><a href="#staff" id="staff">Staff Augmentation</a></li>
         <li><a href="#training" id="training">Training</a></li>
         <li><a href= "#careers" id="careers">Careers</a></li>
@@ -153,6 +154,11 @@ $(function(){
             }
         });
     }
+    $("#about").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about-section").offset().top - 80
+        }, 1200);
+    });
 
     $("#staff").click(function() {
         $('html, body').animate({
