@@ -33,9 +33,8 @@
         <li class="active"><a href="<?= url('') ?>" id="home">Home</a></li>
         <li><a href="#staff" id="staff">Staff Augmentation</a></li>
         <li><a href="#training" id="training">Training</a></li>
-        <li><a href= "<?= url('careers') ?>" target="_blank" id="careers">Careers</a></li>
+        <li><a href= "#careers" id="careers">Careers</a></li>
         <li><a href="#contact" id="contact">Contact Us</a></li>
-        <li><a href="" id="register" id="register">Register</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -167,11 +166,11 @@ $(function(){
         }, 1200);
     });
 
-    /*$("#careers").click(function() {
+    $("#careers").click(function() {
         $('html, body').animate({
             scrollTop: $("#careers-section").offset().top - 80
         }, 1200);
-    });*/
+    });
 
     $("#contact").click(function() {
         $('html, body').animate({

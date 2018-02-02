@@ -30,7 +30,7 @@
                         <h4 data-animation="animated bounceInUp">Company </h4>
                      </div>
                     <div class="col-md-5 text-right">
-                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="{{ asset('img/logo.jpg') }}">
+                       <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="{{ asset('img/vet.jpg') }}">
                     </div>
                 </div></div>
             </div>    
@@ -44,11 +44,8 @@
         </a>
     </div>
 </div>
-
-
-
-
 <div class="container marketing">
+<hr class="featurette-divider">
 <h1 class="section-title wow fadeInUp"><span>About US</span></h1>
         <div class="row">
             <div class="col-md-12 col-sm-12" >
@@ -63,6 +60,8 @@
                 </div>
             </div>
         </div>
+      
+      <hr class="featurette-divider">
       <div class="staff-section section-div" id="staff-section">
         <h1 class="section-title wow fadeInUp"><span>Staff Augmentation</span></h1>
         <div class="row">
@@ -89,8 +88,7 @@
             <div>
               <div class="p-3 mb-2 bg-secondary text-white">
                 <p>
-                <br> <br> <br>
-                More COntaint
+                <br> <br>
                 <br> <br> <br>
                 </p>
             </div>
@@ -99,17 +97,16 @@
             <div class="col-lg-4 col-md-4">
                 <div class="portlet light">
                     <div class="card-icon">
-                        <img src="{{ asset('img/women.jpg') }}"></img>
+                        <img src="{{ asset('img/everify.jpg') }}"></img>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="portlet light">
                     <div class="card-icon">
-                        <i class="icon-trophy font-green-haze theme-font"></i>
+                        <img src="{{ asset('img/vet.jpg') }}"></img>
                     </div>
                     <div class="card-title">
-                        <h2> Certificates </h2>
                     </div>
                     <div class="card-desc">
                         
@@ -119,19 +116,32 @@
             <div class="col-lg-4 col-md-4">
                 <div class="portlet light">
                     <div class="card-icon">
-                        <i class="icon-basket font-purple-wisteria theme-font"></i>
+                        <img src="{{ asset('img/leanlogo.jpg') }}"></img>
                     </div>
                     <div class="card-title">
-                        <h2> Badges </h2>
                     </div>
                 </div>
             </div>
         </div>
       </div>
-
+    </div>
 
       <div class="training-section section-div" id="training-section">
-        <h1 class="section-title wow fadeInUp">Training</h1>
+        <h1 class="section-title wow fadeInUp">Classes and Training</h1>
+
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Lean IT Inc</span></h2>
+          <p class="lead"> is proud to offer training in all of the most in-demand technologies. Classes are held at our well-equipped training center, and on-site classes can be scheduled for employers wishing to enhance their teams' skills.
+          Classes are held during the day for those wishing to complete their training quickly, and evening and weekend classes are available for working professionals.
+          All of our classes are taught by industry professionals with extensive hands-on experience using the technologies they teach.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="{{ asset('img/class.jpg') }}" data-holder-rendered="true">
+        </div>
+      </div>
         <div class="row">          
           <div class="col-lg-4">
             <img class="img-circle" src="{{ asset('img/bsa.JPG') }}" alt="Generic placeholder image" width="140" height="140">
@@ -170,23 +180,7 @@
       </div><!-- /.row -->
 
 
-
-      <!-- START THE FEATURETTES -->
-
-      <!-- <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2MGEyZjIwNzE4IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTYwYTJmMjA3MTgiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
-        </div>
-      </div> -->
-
-
-      <!-- <hr class="featurette-divider"> -->
+      
 
       <!-- /END THE FEATURETTES -->
 
@@ -197,6 +191,45 @@
         <p>© 2016 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </footer>
  -->
+  <hr class="featurette-divider">
+    <div class="careers-section section-div" id="careers-section">
+      <h1 class="section-title wow fadeInUp">Careers</h1>
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="{{ asset('img/careers.jpg') }}" data-holder-rendered="true">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Position : Network And System Administrator</span></h2>
+          <h2 class="featurette-heading">Duration: 36 months</span></h2>
+          <p class="lead"> <h5>
+         <strong> Job Description : </strong>
+          <ul>
+            <li>
+                  •  Recommend changes to improve systems and network configurations, and determine hardware or software requirements related to such changes
+            </li> <li>      • Maintain and administrator computer networks and related computing environments, including computer hardware, systems software, applications software, and all configurations.
+            </li> <li>      • Develop, maintain server network of the company.
+            </li> <li>      • Configure and Troubleshoot VLAN, VTP, STP, and Trunks.
+            </li> <li>      • Install and support LANs, WANs, network segments, Internet, and intranet systems.
+            </li> <li>     • Configuration, management, troubleshooting of network devices (Routers, Switches, Firewalls, Servers, DSL Modems ect.).
+            </li> <li>      • Switches: Basic Configuration & VLAN setup on Cisco 2620, 2950 Switches.
+            </li> <li>      •  Installation/Configuring of VMware's to user Desktop's & Laptop's.
+          </li> </ul>
+          <strong> Qualifiications: </strong>
+          <p>
+          The above-mentioned job duties require at least a bachelor’s degree in Computer Science, Network and Computer Systems Administration or related field.
+          Certifications in Network and Security preferred
+        </p>
+        </h5>
+        </p>
+          <div class="p-3 mb-2 bg-info"><h4><br>
+            *** NOTE: Please submit resumes to <a href="hr@leanitinc.com">hr@leanitinc.com</a>  for consideration. Some travel to client site when necessary*** </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
     <div class="contact-section section-div" id="contact-section">
       <div class="row">
           <h1 class="section-title wow fadeInUp">Contact Us</h1>
@@ -268,7 +301,8 @@
           </div>
       </div>
     </div>
-
+ </div>
+</div> 
 
 @endsection
 @section('page-scripts')
