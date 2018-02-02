@@ -125,8 +125,9 @@
         </div>
       </div>
     </div>
+  </div>
 
-      <div class="training-section section-div" id="training-section">
+    <div class="training-section section-div" id="training-section">
         <h1 class="section-title wow fadeInUp">Classes and Training</h1>
 
         <hr class="featurette-divider">
